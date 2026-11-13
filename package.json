@@ -1,0 +1,24 @@
+{
+  "name": "aurastore-ecommerce-root",
+  "version": "1.0.0",
+  "description": "Production-ready E-Commerce Website with Verified UPI Payments",
+  "scripts": {
+    "start": "node server/src/index.js",
+    "seed": "node server/src/config/seed.js",
+    "view-db": "node server/src/utils/view-db.js",
+    "delete-user": "node server/src/utils/delete-user.js",
+    "build": "cmd /c \"cd client && npm run build\"",
+    "dev:server": "node server/src/index.js",
+    "dev:client": "cmd /c \"cd client && npm run dev\""
+  },
+  "keywords": [
+    "ecommerce",
+    "upi",
+    "react",
+    "express",
+    "tailwindcss",
+    "fullstack"
+  ],
+  "author": "Lalithkumar",
+  "license": "MIT"
+}
